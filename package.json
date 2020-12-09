@@ -1,0 +1,81 @@
+{
+  "name": "cbm-train",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.9",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-phone-number-input": "^3.0.6",
+    "@types/react-router-dom": "^5.1.6",
+    "balm-ui": "^9.2.1",
+    "bootstrap": "^4.5.3",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jss-rtl": "^0.3.0",
+    "material-ui-password-field": "^2.1.2",
+    "mysql": "github:types/mysql",
+    "mysql2": "^2.2.5",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.1",
+    "react-calendar": "^3.2.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^17.0.1",
+    "react-phone-number-input": "^3.1.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "sass-loader": "^7.3.1",
+    "sequelize": "^6.3.5",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.9.2",
+    "web-vitals": "^0.2.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:build": "npx webpack -w",
+    "watch:server": "nodemon dist/server.js",
+    "dev": "npm-run-all --parallel watch:*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "balm": "^3.9.0",
+    "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.3"
+  }
+}
